@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+body{
+    background-color:rgb(224, 208, 191);
+    font-family:'Outfit', sans-serif;
+    margin:0;
+    padding: 40px 20px;
+    display:flex;
+    justify-content:center;
+}
+img{
+    height:auto;
+    width:700px;
+    border-radius:15px;
+    margin-bottom:10px;
+}
+.container{
+    max-width:700px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius:20px;
+}
+h1{
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 20px;
+    font-weight:400;
+}
+.prep{
+    max-width:700px;
+    margin: 0 auto;
+    padding:10px;
+    background:hsl(330, 100%, 98%);
+    border-radius:10px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+h3{
+    color:hsl(332, 51%, 32%);
+    margin-left:20px;
+    font-weight: 600;
+    font-family:'Outfit',sans-serif;
+}
+.prep-time li::marker{
+    color:hsl(332, 51%, 32%);
+}
+ul li{
+    color:#525151;
+     list-style-position: outside;
+    padding-left: 15px; 
+    text-indent: 0;  
+}
+p{
+     color:#2c2c2c;
+     font-size:16px;
+}
+h2{
+    font-family:'Young Serif',sans-serif;
+    color:hsl(14, 45%, 36%);
+    margin-left:18px;
+    font-weight: 400;
+}
+.list-item li::marker{
+    color:hsl(14, 45%, 36%);
+}
+ol li{
+    color:#525151;
+    list-style-position: outside;
+    padding-left: 15px; 
+    text-indent: 0; 
+}
+
+.instruct li::marker{
+    color:hsl(14, 45%, 36%);
+}
+#nutri{
+    margin-left:15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+     margin-left:25px;
+}
+
+table td {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table td:first-child {
+    color: #5a5a5a;
+}
+
+table td:last-child {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+hr{
+    color:rgba(255, 255, 255, 0.5);
+    opacity:0.2;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+        display: block; 
+    }
+
+    .container {
+        padding: 20px 15px;
+        border-radius: 15px;
+        max-width: 100%;
+    }
+
+    img {
+        width: 100%;  
+        max-width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    h2, h3 {
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+
+    ul li, ol li {
+        padding-left: 20px;
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    table {
+        margin-left:20px;
+        font-size: 0.9rem;
+    }
+
+    #nutri {
+        margin-left: 10px;
+    }
+}
