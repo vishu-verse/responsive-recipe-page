@@ -1,5 +1,3 @@
-# Responsive-recipe-page
-Responsive Recipe Page built with HTML and CSS .Features mobile-friendly design with styled lists, tables, and images.
 # 🍽️ Responsive Recipe Page
 
 A simple, responsive recipe page built using **HTML** and **CSS**. This project showcases clean UI design, semantic HTML, and mobile responsiveness. Perfect for beginners learning frontend web development!
